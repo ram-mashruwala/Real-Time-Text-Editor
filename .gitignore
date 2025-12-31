@@ -205,3 +205,32 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+
+
+
+client-side/test-results
+client-side/node_modules
+
+# Output
+client-side/.output
+client-side/.vercel
+client-side/.netlify
+client-side/.wrangler
+client-side//.svelte-kit
+/build
+
+# OS
+client-side/.DS_Store
+client-side/Thumbs.db
+
+# Env
+client-side/.env
+client-side/.env.*
+!client-side/.env.example
+!client-side/.env.test
+
+# Vite
+client-side/vite.config.js.timestamp-*
+client-side/vite.config.ts.timestamp-*
